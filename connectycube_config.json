@@ -1,0 +1,22 @@
+{
+  "name": "Rnchat",
+  "displayName": "Rnchat",
+  "senderID": "147299227261",
+  "connectyCubeConfig": [
+    {
+      "appId": 7876,
+      "authKey": "JSQngseTkXUxcLZ",
+      "authSecret": "Ect2FZef58vDGJK"
+    },
+    {
+      "chat": {
+        "streamManagement": {
+          "enable": true
+        }
+      },
+      "debug": {
+        "mode": 1
+      }
+    }
+  ]
+}

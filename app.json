@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Admiora",
+    "slug": "Admiora",
+    "permissions": ["mediaLibrary"],
+    "version": "1.0.4",
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splsh.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splsh.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#87CDF6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.4",
+      "bundleIdentifier": "customer-app"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splsh.png",
+        "backgroundColor": "#87CDF6"
+      },
+      "package": "com.codewithabdullah.Admiora"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/splsh.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ade24451-c223-4278-ab62-39e1473d78cd"
+      }
+    }
+  }
+}
